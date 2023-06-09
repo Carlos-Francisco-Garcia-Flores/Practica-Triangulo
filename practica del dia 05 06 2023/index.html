@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./Script_I.js"></script>
+    <title>numeros aleatorios elaborado por: Carlos Francisco Garcia Flores</title>
+
+
+</head>
+<body>
+    <h1 id="titulos"> Triangulos</h1>
+    <div class="containerForm1">
+        
+        <fieldset>
+
+            <p> Ingresa el Lado 1: <input type="number" id="L1" placeholder="Ingresa el lado 1 aqui" onblur="LA1()"></p>
+            <p> Ingresa el Lado 2: <input type="number" id="L2" placeholder="Ingresa el lado 2 aqui" onblur="LA2()"></p>
+            <p> Ingresa el Lado 3: <input type="number" id="L3" placeholder="Ingresa el lado 3 aqui" onblur="LA3()"></p>
+
+            <p> <input type="submit" value="¿Es un triangulo?" id="buttonTT" onclick="determinarTipoTriangulo()"/> </p>
+            <p> <input type="submit" value="Semiperimetro" id="buttonP" onclick="Semiperimetro()"/> </p>
+            <p> <input type="submit" value="Area" id="buttonA" onclick="Area()"/> </p>
+            <p> <input type="submit" value="Lado mayor y lado menor" id="buttonMm" onclick="obtenerLadoMayorMenor()"/> </p>
+
+
+
+        </fieldset>
+
+        
+    </div>
+       
+    
+</body>
+</html>
